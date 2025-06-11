@@ -3,7 +3,7 @@ I've been frustrated lately when modifying all of my configurations within the `
 
 This repository holds my custom and modularized vim configuration.
 ## Setup
-You can clone this repository and place it somewhere. Although in my opinion, I recommend you to place this repository in your home directory. You could rename the main directory into `.vimrd.d/` to become hidden, if you prefer that way.
+You can clone this repository and place it somewhere. Although in my opinion, I recommend you to place this repository in your home directory. You could rename `vimrc.d/` into `.vimrc.d/` to become hidden, if you prefer that way.
 
 ##  Modifying `.vimrc` configuration
 
