@@ -70,5 +70,5 @@ endif
 " If vimspector plugin doesn't exist
 " don't include this configuration
 if !empty(glob("~/.vim/bundle/vimspector"))
-	let g:vimspector_enable_mappings = 'HUMAN'
+	source $HOME/.vimrc.d/plugins-config/vimspector-conf.vim
 endif
