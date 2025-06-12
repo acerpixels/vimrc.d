@@ -64,7 +64,7 @@ filetype plugin indent on       " required
 " if coc.nvim doesn't exist,
 " don't include this configuration
 if !empty(glob("~/.vim/plugged/coc.nvim"))
-	source $HOME/.vimrc.d/plugins-config/coc-keymaps.vim
+	source $HOME/.vimrc.d/plugins-config/coc-conf.vim
 endif
 
 " If vimspector plugin doesn't exist
