@@ -40,6 +40,7 @@ call plug#begin()
 	Plug 'preservim/tagbar'
 	" Add intellisese for programming workflow
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	Plug 'skywind3000/asyncrun.vim'
 call plug#end()
 
 " Check if Vundle plugin exists
