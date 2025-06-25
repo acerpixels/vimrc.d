@@ -40,6 +40,7 @@ call plug#begin()
 	Plug 'preservim/tagbar'
 	" Add intellisese for programming workflow
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+	Plug 'tpope/vim-dispatch'
 call plug#end()
 
 " Check if Vundle plugin exists
@@ -71,4 +72,8 @@ endif
 " don't include this configuration
 if !empty(glob("~/.vim/bundle/vimspector"))
 	source $HOME/.vimrc.d/plugins-config/vimspector-conf.vim
+endif
+
+if !empty(glob("~/.vim/plugged/vim-dispatch"))
+	source $HOME/.vimrc.d/plugins-config/vim-dispatch-conf.vim
 endif
