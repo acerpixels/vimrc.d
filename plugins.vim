@@ -66,6 +66,10 @@ if !empty(glob("~/.vim/plugged/nerdtree"))
 	source $HOME/.vimrc.d/plugins-config/nerdtree-conf.vim
 endif
 
+if !empty(glob("~/.vim/plugged/tagbar"))
+	source $HOME/.vimrc.d/plugins-config/tagbar-conf.vim
+endif
+
 " if coc.nvim doesn't exist,
 " don't include this configuration
 if !empty(glob("~/.vim/plugged/coc.nvim"))
