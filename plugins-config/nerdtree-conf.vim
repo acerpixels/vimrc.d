@@ -1,1 +1,1 @@
-nnoremap <C-m>nt :NERDTree<Enter>
+nmap <C-m>nt :NERDTree<Enter>
