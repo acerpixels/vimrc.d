@@ -18,5 +18,5 @@ vnoremap J :m '>+1<CR>gv=gv
 nnoremap <Leader>e :set expandtab<Enter>
 nnoremap <Leader>n :set noexpandtab<Enter>
 
-nnoremap <C-m>ll :set list lcs+=tab:--> listchars-=eol:$ <Enter>:set list lcs+=space:. listchars-=eol:$ <Enter>
-nnoremap <C-m>ln :set nolist<Enter>
+nmap <C-m>ll :set list lcs+=tab:--> listchars-=eol:$ <Enter>:set list lcs+=space:. listchars-=eol:$ <Enter>
+nmap <C-m>ln :set nolist<Enter>
