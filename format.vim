@@ -32,8 +32,8 @@ set linebreak
 " customize what would some characters
 " would look like once list is enabled
 "
-set list lcs+=tab:--> listchars-=eol:$
-set list lcs+=space:. listchars-=eol:$
+"set list lcs+=tab:--> listchars-=eol:$
+"set list lcs+=space:. listchars-=eol:$
 
 " Add number lines in vim-editor
 "
