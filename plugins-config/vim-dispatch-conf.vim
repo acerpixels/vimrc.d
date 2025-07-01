@@ -1,6 +1,6 @@
 " Custom Mappings: vim-dispatch
 "
-nnoremap <C-d> :Dispatch
+nnoremap <C-d> :Dispatch 
 
 " Custom Mappings: git
 " 
