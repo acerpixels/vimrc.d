@@ -1,7 +1,7 @@
 " Custom Mappings: vim-dispatch
 "
 nnoremap <C-d>d :Dispatch 
-nnoremap <C-d>m :Make
+nnoremap <C-d>m :Make<Enter>
 
 " Custom Mappings: git
 " 
